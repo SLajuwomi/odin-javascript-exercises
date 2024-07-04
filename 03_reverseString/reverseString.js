@@ -55,10 +55,6 @@ e l l
 
     thisString = splitString.join('')  // Join the array back into a string
     console.log(thisString)
-            }
-            thisString = splitString;
-        }
-    console.log(thisString)
 */
 
 
