@@ -15,8 +15,8 @@ const fibonacci = function(countArg) {
     let secondPrev = 0;
 
     for (let i = 2; i <= count; i++) {
-        let current = firstPrev + secondPrev;
-        secondPrev = firstPrev;
+        let current = firstPrev + secondPrev; 
+        secondPrev = firstPrev; 
         firstPrev = current;
     }
 
